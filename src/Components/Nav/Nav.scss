@@ -1,0 +1,49 @@
+@import '../../App.scss';
+.header{
+    background-color: $color1;
+    padding: 20px 15px;
+    display: flex;
+h1{
+     display: inline-flex;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-right: 12px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.a{
+    display: flex;
+}
+i{
+    font-size: 20px;
+    display: none;
+}
+}
+@media screen  and(max-width:900px){
+    .header{
+        h1{
+            padding: 25px;
+            border: 1px solid #ccc;
+        }
+        h1:last-of-type{
+            padding: 25px;
+            border: 0px solid #ccc;
+        }
+        .a{
+            position: absolute;
+            display: block;
+            top:0;
+            left: 0;
+            height: 100vh;
+            background-color: $color1;
+            z-index: 1;
+            padding: 40px;
+            width: 100%;
+            transform: translateX(-500px);
+            transition: 0.5s ease-in-out;
+        }
+        i{
+            display: block;
+        }
+    }
+}

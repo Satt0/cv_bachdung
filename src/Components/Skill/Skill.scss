@@ -1,0 +1,119 @@
+@import '../../App.scss';
+* {box-sizing:border-box}
+.title{
+    //padding: 70px 300px 70px 330px;
+    padding:5rem 21rem;
+    .content{
+        max-width: 1000px;
+        margin:0 auto;
+        
+    }
+    h1{
+        color:rgba(94,113,221,255);
+            font-size: 45px;
+    }
+    h2{
+        color:rgba(94,113,221,255);
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .table{
+       
+        
+        .left{
+           p{
+            font-size: 18px;
+            font-family:  'Dancing Script', cursive;
+            margin-top: 50px;
+            width: 100%;
+           }
+           .a{
+            width: 100%;
+            background-color: #ddd;
+            margin-top: 30px;
+            .skilldata{
+                text-align: right; 
+   padding-top: 2px; 
+   padding-bottom: 2px; 
+   width: 65%;
+    background-color:  rgba(85,105,220,255);
+            }
+            .skillmath{
+                text-align: right; 
+   padding-top: 2px; 
+   padding-bottom: 2px; 
+   width: 78%;
+    background-color: rgba(85,105,220,255);
+            }
+            .skillalgo{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 68%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skillhtml{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 80%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skilljs{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 70%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skillreact{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 60%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skilljava{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 74%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skillc{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 45%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skilleng{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 90%;
+                 background-color: rgba(85,105,220,255);
+            }
+            .skillvie{
+                text-align: right; 
+                padding-top: 2px; 
+                padding-bottom: 2px; 
+                width: 100%;
+                 background-color: rgba(85,105,220,255);
+            }
+           }
+        }
+        
+        }
+        @media screen  and(max-width:900px){
+            padding-left: 0;
+    margin-left: 0px;
+    display: block;
+    padding: 50px;
+        }
+}
+
+
+
+

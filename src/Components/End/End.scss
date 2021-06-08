@@ -1,0 +1,65 @@
+@import '../../App.scss';
+.end{
+    
+    //padding: 70px 300px 70px 330px;
+    //max-width: 1200px;
+    padding:5rem 4rem;
+    .end-content{
+        max-width: 900px;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    margin:0 auto;
+    background-color: rgba(238,240,251,255);
+    .quote{
+       // width:50%;
+       //padding-right: 20px;
+        p{
+            font-size: 30px;
+        font-family:  'Dancing Script', cursive;
+        //margin-top: 20px;
+        }
+        .image{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 60px;
+            .fb{
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+            .ins{
+                margin-left: 20px;
+            }
+        }
+    }
+    .contact{
+        //width: 70%;
+        font-family:  'Dancing Script', cursive;
+        p{
+            font-size: 16px;
+        font-family:  'Dancing Script', cursive;
+        //margin-top: 20px;
+        //margin-left: 180px;
+        }
+        .btn{
+            display: block;
+            padding: 10px 20px;
+            width:40%;
+            color: white;
+            margin:0 auto;
+            //margin-left: 180px;
+            background-color: $color1;
+            margin-top: 20px;
+        }
+    }
+}
+@media screen  and(max-width:900px){
+    .end{
+        .end-content{
+            margin: auto;
+            padding: auto;
+        }
+    }
+}

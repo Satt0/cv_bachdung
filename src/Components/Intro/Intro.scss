@@ -1,0 +1,104 @@
+@import '../../App.scss';
+
+.Intro{
+    background-image: url('./Screenshot\ \(243\).png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+ 
+    height: 100vh;
+    position: relative;
+    display: flex;
+   
+    .greeting{
+        width: 70%;
+        border-right:2px solid green ;
+        height: 100%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.13);
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-end;
+        padding: 90px;
+        h1{
+            font-size: 50px;
+        }
+    }
+    .info{
+        background-color: $color1;
+        width: 30%;
+        height: 100%;
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        font-family: var(--font1);
+        h1{
+            font-size: 25px;
+            align-items: center;
+            margin-top: -140px;
+            
+        }
+        h4{
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .address{
+            font-size: 30px;
+        }
+        .contact{
+           // font-size: 25px;
+            margin-top: 40px;
+        }
+        .phone{
+            //font-size: 25px;
+        }
+        .btn{
+            display: inline-block;
+            padding: 15px 32px;
+            width:40%;
+            color: blue;
+            margin: auto;
+        }
+        .btn:hover{
+            background-color: aqua;
+        }
+        img{
+            //height: 15%;
+            width: 25%;
+           //height:100px;
+            padding: 0;
+            margin: 0 auto 170px auto;  
+            border-radius: 500px;
+            margin-top: 0px;
+        }
+    }
+    @media screen  and(max-width:900px){
+        display: block;
+        flex-direction: column;
+        .greeting{
+            width:100%;
+            height:50%;
+          text-align: center;
+          justify-content: center;
+        }
+        .info  {
+            width: 100%;
+            height:75%;
+            background-color: $color1;
+            text-align: center;
+          justify-content: center;
+          
+        }
+        img{
+           // height: 100px;
+           // width:auto;
+            padding: 0;
+            margin: 170px;  
+            border-radius: 500px;
+            margin-top: 0px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../App.scss';
+.last{
+    padding: 1rem 1rem;
+    .content{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    background-color: $color1;
+    p{
+        color: white;
+        //padding: 25px;
+        margin-left: 310px;
+    }
+}
+@media screen  and(max-width:900px){
+    .last{
+        .content{
+            padding-left: 0;
+    margin-left: 0px;
+    display: block;
+    padding: 0px;
+        }
+        p{
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+}
